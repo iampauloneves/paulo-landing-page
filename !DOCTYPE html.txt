@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curso de Crescimento na Palavra de Deus</title>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: #4b5bd7;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* HERO */
+.hero {
+    padding: 60px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 620px;
+    margin: 0 auto 25px;
+}
+
+.cta-btn {
+    background: #4b5bd7;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.cta-btn:hover {
+    background: #3542a1;
+}
+
+/* BENEFICIOS */
+.beneficios {
+    background: #fff;
+    padding: 50px 20px;
+}
+
+.beneficios h3 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.beneficio {
+    background: #f0f2ff;
+    margin: 12px auto;
+    padding: 20px;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+/* SOBRE O MENTOR */
+.mentor {
+    background: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.mentor img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 4px solid #4b5bd7;
+}
+
+.mentor p {
+    max-width: 620px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+/* FORMULARIO */
+.form-section {
+    background: #eef0ff;
+    padding: 50px 20px;
+}
+
+.form-container {
+    background: #fff;
+    padding: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.12);
+}
+
+.form-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.checkbox-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-enviar {
+    width: 100%;
+    padding: 14px;
+    background: #4b5bd7;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-enviar:hover {
+    background: #3542a1;
+}
+
+/* RODAPE */
+footer {
+    background: #4b5bd7;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Curso: Crescimento na Palavra de Deus</h1>
+</header>
+
+<section class="hero">
+    <h2>Descubra a revelação que transforma vidas</h2>
+    <p>Aprenda a interpretar, aplicar e viver a Palavra com profundidade, clareza e direção espiritual. Entre para a lista de espera e seja avisado antes do lançamento.</p>
+
+    <a href="#form"><button class="cta-btn">Quero Entrar na Lista de Espera</button></a>
+</section>
+
+<section class="beneficios">
+    <h3>O que você vai aprender</h3>
+
+    <div class="beneficio">📌 Como interpretar a Palavra de Deus sem distorções</div>
+    <div class="beneficio">📌 Como ouvir a direção de Deus no secreto</div>
+    <div class="beneficio">📌 Como ensinar e aconselhar outras pessoas com segurança</div>
+    <div class="beneficio">📌 Como aplicar a Bíblia ao seu dia a dia</div>
+    <div class="beneficio">📌 Como vencer bloqueios espirituais e emocionais</div>
+</section>
+
+<section class="mentor">
+    <img src="SUA-FOTO.jpg" alt="Foto do mentor">
+    <h3>Sobre o Mentor</h3>
+    <p>
+        Meu nome é **Paulo Farias das Neves**, e há anos ajudo pessoas a crescerem no conhecimento e na revelação da Palavra de Deus. 
+        Todos os dias alguém me procura pedindo orientação — e agora decidi transformar esse chamado em um curso acessível e prático.
+    </p>
+</section>
+
+<section class="form-section" id="form">
+    <div class="form-container">
+        <h3>Entre na Lista de Espera</h3>
+
+        <form action="https://formsubmit.co/SEU-EMAIL-AQUI" method="POST">
+
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="box">
+            <input type="hidden" name="_subject" value="Novo inscrito no curso">
+            <input type="hidden" name="_autoresponse" value="Obrigado! Você entrou na lista de espera.">
+
+            <div class="form-group">
+                <label>Nome completo</label>
+                <input type="text" name="nome" required>
+            </div>
+
+            <div class="form-group">
+                <label>E-mail</label>
+                <input type="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label>WhatsApp</label>
+                <input type="text" name="whatsapp" required>
+            </div>
+
+            <div class="checkbox-area">
+                <input type="checkbox" required>
+                <label>Autorizo receber informações sobre o curso.</label>
+            </div>
+
+            <button class="btn-enviar" type="submit">Quero Garantir Minha Vaga</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    © 2025 – Todos os direitos reservados
+</footer>
+
+</body>
+</html>
